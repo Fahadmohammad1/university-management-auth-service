@@ -9,8 +9,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', async (req: Request, res: Response) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Working Successfully!')
+  // throw new Error()
 })
 
 app.use('/api/v1/user', userRoutes)
