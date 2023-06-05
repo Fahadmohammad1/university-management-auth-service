@@ -1,7 +1,10 @@
 import express, { Application } from 'express'
 import cors from 'cors'
-import userRoutes from './app/modules/users/user.route'
+
 import globalErrorHandler from './app/middleware/globalErrorHandler'
+import { UserRoutes } from './app/modules/users/user.route'
+// import ApiError from './errors/ApiError'
+
 const app: Application = express()
 
 app.use(cors())
@@ -10,13 +13,12 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   // res.send('Working Successfully!')
-//   throw new Error('wow errrrrrrrrrrrrroooooooorrrrrrrrrr')
-//   // next('wow very dengerous')
-// })
+app.use('/api/v1/user', UserRoutes)
 
-app.use('/api/v1/user', userRoutes)
+// Testing
+app.get('/', async () => {
+  throw new Error('Testing error logger')
+})
 
 // global error handler
 app.use(globalErrorHandler)

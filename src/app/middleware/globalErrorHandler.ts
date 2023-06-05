@@ -1,12 +1,17 @@
+/* eslint-disable no-console */
+/* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler } from 'express'
 import config from '../../config'
 import { IGenericErrorMessage } from '../../interfaces/error'
 import handleValidationError from '../../errors/handleValidationError'
 
 import ApiError from '../../errors/ApiError'
+import { errorLogger } from '../../shared/logger'
 
-const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
-  res.status(400).json({ err: error })
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  config.env === 'development'
+    ? console.log('globalErrorHandler ~', error)
+    : errorLogger.error('globalErrorHandler ~', error)
 
   let statusCode = 500
   let message = 'Something went wrong'
@@ -19,7 +24,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
     errorMessages = simplifiedError.errorMessages
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode
-    message = error?.message
+    message = error.message
     errorMessages = error?.message
       ? [
           {
@@ -46,6 +51,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res) => {
     errorMessages,
     stack: config.env !== 'production' ? error.stack : undefined,
   })
+  next()
 }
 
 export default globalErrorHandler

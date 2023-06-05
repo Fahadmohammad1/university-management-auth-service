@@ -44,6 +44,36 @@
             "date": 1685898122637,
             "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-23-error.log",
             "hash": "691cc9422b4aadbf7666e32fbb8b0a4c44ea0c938db5ca95a9f8bd39bcb4a432"
+        },
+        {
+            "date": 1685972331640,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-19-error.log",
+            "hash": "6e7b7bdc826f74534cd903ed45ca66e24d9e8a192626a3d8daa9cbfedb8ada7b"
+        },
+        {
+            "date": 1685973744938,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-20-error.log",
+            "hash": "ac23a6c007b370eeed74fe8d8d5e3a575c93d1de34aef490f6cd121489065ac0"
+        },
+        {
+            "date": 1685977310831,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-21-error.log",
+            "hash": "149fe783c1c42fb467a29fac84ed7a81bb0e45ae0fa48d23e7ccad2cd1ec66eb"
+        },
+        {
+            "date": 1685980842827,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-22-error.log",
+            "hash": "9f1a3158c0e6178a3abbfaa0a20a03e6c7006d68b4e4cc7e82823bea54c2f732"
+        },
+        {
+            "date": 1685984678026,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-23-error.log",
+            "hash": "f36ee9a8be06286773cf3ddc91ea19163b306f51a623b9f808f77eef75fa5374"
+        },
+        {
+            "date": 1685992465148,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-06-06-01-error.log",
+            "hash": "ccc4581063f6388d7f7292f32b5929af1a7ca910a59177b5cf9d394594db280f"
         }
     ],
     "hashType": "sha256"

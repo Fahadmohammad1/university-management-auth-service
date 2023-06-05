@@ -2,95 +2,113 @@
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:02:53.207Z'
+  timestamp: '2023-06-05T19:14:26.383Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:02:53.213Z'
+  timestamp: '2023-06-05T19:14:26.392Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:04:44.582Z'
+  timestamp: '2023-06-05T19:15:50.988Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:04:44.587Z'
+  timestamp: '2023-06-05T19:15:50.994Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:06:42.708Z'
+  timestamp: '2023-06-05T19:16:05.175Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:06:42.714Z'
+  timestamp: '2023-06-05T19:16:05.181Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:10:02.732Z'
+  timestamp: '2023-06-05T19:19:17.767Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:10:02.738Z'
+  timestamp: '2023-06-05T19:19:17.773Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:10:48.998Z'
+  timestamp: '2023-06-05T19:19:37.555Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:10:49.004Z'
+  timestamp: '2023-06-05T19:19:37.561Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:17:35.646Z'
+  timestamp: '2023-06-05T19:23:52.930Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:17:35.652Z'
+  timestamp: '2023-06-05T19:23:52.936Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-05T19:23:55.690Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:23:10.900Z'
+  timestamp: '2023-06-05T19:27:55.735Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:23:10.906Z'
+  timestamp: '2023-06-05T19:27:55.741Z'
 }
 {
   message: 'DB connected',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:23:27.942Z'
+  timestamp: '2023-06-05T19:29:29.000Z'
 }
 {
   message: 'Example app listening on port 5000',
   level: 'info',
   label: 'PH',
-  timestamp: '2023-06-04T11:23:27.949Z'
+  timestamp: '2023-06-05T19:29:29.007Z'
+}
+{
+  message: 'DB connected',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-05T19:31:24.520Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-05T19:31:24.525Z'
 }
