@@ -14,6 +14,36 @@
             "date": 1685875269941,
             "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-16-success.log",
             "hash": "a58983c8a8ac143c524b8bc3a33c83ba10b0c9d7ef99649dbc578ca1433510a4"
+        },
+        {
+            "date": 1685876571780,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-17-success.log",
+            "hash": "d2fc75c3a438020a286ccd46a7362a3177833da17c28042acc19203d6b0bbee7"
+        },
+        {
+            "date": 1685884435540,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-19-success.log",
+            "hash": "38ae1e8553c6bb671d9a5599a71cc68fb240c6a19c1c8c77aefd5f8155c6929a"
+        },
+        {
+            "date": 1685890715968,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-20-success.log",
+            "hash": "134af22a83305a8046238f8f9420d6e85a2f33fe973828e8923e28817ceb376a"
+        },
+        {
+            "date": 1685892255638,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-21-success.log",
+            "hash": "648d70ff8b36c670aff870dce3e8be31af772c887829718f7523eaf401967c8e"
+        },
+        {
+            "date": 1685894482991,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-22-success.log",
+            "hash": "9af5634edecf79a3e908202dd810117fcc026bf32c77a60a1c93bf7a0d1fc9ff"
+        },
+        {
+            "date": 1685898122606,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-04-06-23-success.log",
+            "hash": "10d886dea8595fbe67dbbe8e133bed831846ba22bf32ace8404b5da73289effe"
         }
     ],
     "hashType": "sha256"
