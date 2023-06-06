@@ -37,7 +37,6 @@ async function main() {
 main()
 
 process.on('SIGTERM', () => {
-  console.log('from sigterm')
   logger.info('SIGTERM is received')
   if (server) {
     // server.close()
