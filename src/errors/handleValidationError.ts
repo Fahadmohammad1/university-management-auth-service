@@ -13,6 +13,7 @@ const handleValidationError = (
       }
     }
   )
+  console.log('errors', errors)
   const statusCode = 400
   return {
     statusCode,
