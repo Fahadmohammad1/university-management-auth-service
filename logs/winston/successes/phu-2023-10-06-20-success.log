@@ -1,0 +1,6 @@
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-10T14:44:58.393Z'
+}
