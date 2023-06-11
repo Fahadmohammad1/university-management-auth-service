@@ -1,0 +1,54 @@
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:06:25.907Z'
+}
+{
+  message: 'DB connected',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:10:59.626Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:10:59.633Z'
+}
+{
+  message: 'DB connected',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:14:02.828Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:14:02.836Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:28:56.771Z'
+}
+{
+  message: 'DB connected',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:29:34.920Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:29:34.927Z'
+}
+{
+  message: 'SIGTERM is received',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-11T19:35:08.371Z'
+}
