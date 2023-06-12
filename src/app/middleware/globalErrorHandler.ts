@@ -11,7 +11,7 @@ import { ZodError } from 'zod'
 import handleZodError from '../../errors/handleZodError'
 import handleCastError from '../../errors/handleCastError'
 
-const globalErrorHandler: ErrorRequestHandler = (error, req, res, _next) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
     ? console.log('globalErrorHandler ~', error)
     : errorLogger.error('globalErrorHandler ~', error)
