@@ -1,15 +1,19 @@
-import config from '../../../config/index'
+// import config from '../../../config/index'
 import ApiError from '../../../errors/ApiError'
 import { IUser } from './user.interface'
 import User from './user.model'
-import { generateUserId } from './user.utils'
+// import { generateStudentId } from './user.utils'
 
 const createUser = async (user: IUser): Promise<IUser> => {
-  const id = await generateUserId()
-  user.id = id
-  if (!user.password) {
-    user.password = config.default_user_pass as string
-  }
+  // const academicSemester = {
+  //   code : '01',
+  //   year : '2025',
+  // }
+  // const id = await generateStudentId(academicSemester)
+  // user.id = id
+  // if (!user.password) {
+  //   user.password = config.default_user_pass as string
+  // }
 
   const createdUser = await User.create(user)
   if (!createdUser) {
