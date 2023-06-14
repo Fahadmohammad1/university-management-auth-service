@@ -239,6 +239,11 @@
             "date": 1686765642169,
             "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-15-06-00-success.log",
             "hash": "d131121ec96f10132fc8320b622690100b788878d3c007e7c509f3b043af9198"
+        },
+        {
+            "date": 1686773897019,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-15-06-02-success.log",
+            "hash": "32dfcea2f0961e6532ebdc95cad4398fc4fc67835aeca13c24972ea3ea864847"
         }
     ],
     "hashType": "sha256"

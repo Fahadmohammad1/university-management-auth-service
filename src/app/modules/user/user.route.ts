@@ -12,7 +12,7 @@ router.post(
   UserController.createStudent
 )
 
-// faculty route
+// create faculty
 router.post(
   '/create-faculty',
   validateRequest(FacultyValidation.createFacultyZodSchema),
