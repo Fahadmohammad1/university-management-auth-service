@@ -79,21 +79,21 @@ const updateFaculty = async (
   const isExist = await Faculty.findOne({ id })
 
   if (!isExist) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'Student not found !')
+    throw new ApiError(httpStatus.NOT_FOUND, 'Faculty not found !')
   }
 
-  const { name, ...studentData } = payload
+  const { name, ...facultyData } = payload
 
-  const updatedStudentData: Partial<IFaculty> = { ...studentData }
+  const updatedFacultyData: Partial<IFaculty> = { ...facultyData }
 
   if (name && Object.keys(name).length > 0) {
     Object.keys(name).forEach(key => {
       const nameKey = `name.${key}` as keyof Partial<IFaculty> // `name.fisrtName`
-      ;(updatedStudentData as any)[nameKey] = name[key as keyof typeof name]
+      ;(updatedFacultyData as any)[nameKey] = name[key as keyof typeof name]
     })
   }
 
-  const result = await Faculty.findOneAndUpdate({ id }, updatedStudentData, {
+  const result = await Faculty.findOneAndUpdate({ id }, updatedFacultyData, {
     new: true,
   })
   return result
