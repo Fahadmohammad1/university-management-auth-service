@@ -3,6 +3,7 @@ import { UserController } from './user.controller'
 import validateRequest from '../../middleware/validateRequest'
 import { UserValidation } from './user.validation'
 import { FacultyValidation } from '../faculty/faculty.validation'
+import { AdminValidation } from '../admin/admin.validation'
 
 const router = express.Router()
 
@@ -17,6 +18,13 @@ router.post(
   '/create-faculty',
   validateRequest(FacultyValidation.createFacultyZodSchema),
   UserController.createFaculty
+)
+
+// create admin
+router.post(
+  '/create-admin',
+  validateRequest(AdminValidation.createAdminZodSchema),
+  UserController.createAdmin
 )
 
 export const UserRoutes = router

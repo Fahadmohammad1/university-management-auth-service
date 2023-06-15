@@ -82,3 +82,15 @@
   label: 'PH',
   timestamp: '2023-06-14T21:57:09.432Z'
 }
+{
+  message: 'DB connected',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-14T21:58:05.076Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-14T21:58:05.084Z'
+}
