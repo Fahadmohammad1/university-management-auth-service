@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "start": "node dist/server.js",
+    "build": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint . --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
@@ -13,6 +17,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -38,6 +47,8 @@
     "express": "^4.18.2",
     "http-status": "^1.6.2",
     "mongoose": "^7.2.1",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^5.0.1",
     "winston": "^3.9.0",
     "winston-daily-rotate-file": "^4.7.1",
     "zod": "^3.21.4"
