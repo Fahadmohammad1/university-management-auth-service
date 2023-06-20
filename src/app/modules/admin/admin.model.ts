@@ -1,8 +1,7 @@
 import { Schema, model } from 'mongoose'
 import { AdminModel, IAdmin } from './admin.interface'
-import { bloodGroup, gender } from './admin.constant'
 
-export const AdminSchema = new Schema<IAdmin, AdminModel>(
+const AdminSchema = new Schema<IAdmin, AdminModel>(
   {
     id: {
       type: String,
@@ -26,12 +25,16 @@ export const AdminSchema = new Schema<IAdmin, AdminModel>(
       },
       required: true,
     },
-    gender: {
-      type: String,
-      enum: gender,
-    },
     dateOfBirth: {
       type: String,
+    },
+    gender: {
+      type: String,
+      enum: ['male', 'female'],
+    },
+    bloodGroup: {
+      type: String,
+      enum: ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'],
     },
     email: {
       type: String,
@@ -47,10 +50,6 @@ export const AdminSchema = new Schema<IAdmin, AdminModel>(
       type: String,
       required: true,
     },
-    bloodGroup: {
-      type: String,
-      enum: bloodGroup,
-    },
     presentAddress: {
       type: String,
       required: true,
@@ -59,25 +58,21 @@ export const AdminSchema = new Schema<IAdmin, AdminModel>(
       type: String,
       required: true,
     },
-    designation: {
-      type: String,
-      required: true,
-    },
     managementDepartment: {
       type: Schema.Types.ObjectId,
       ref: 'ManagementDepartment',
       required: true,
     },
+    designation: {
+      type: String,
+      required: true,
+    },
     profileImage: {
       type: String,
-      // required: true,
     },
   },
   {
     timestamps: true,
-    toJSON: {
-      virtuals: true,
-    },
   }
 )
 

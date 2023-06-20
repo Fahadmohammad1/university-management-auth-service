@@ -1,16 +1,17 @@
 import { Request, Response } from 'express'
-import catchAsync from '../../../shared/catchAsync'
-import sendResponse from '../../../shared/sendResponse'
 import httpStatus from 'http-status'
-import pick from '../../../shared/pick'
 import { paginationFields } from '../../../constants/pagination'
+import catchAsync from '../../../shared/catchAsync'
+import pick from '../../../shared/pick'
+import sendResponse from '../../../shared/sendResponse'
 import { adminFilterableFields } from './admin.constant'
-import { AdminService } from './admin.service'
 import { IAdmin } from './admin.interface'
+import { AdminService } from './admin.service'
 
 const getAllAdmins = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, adminFilterableFields)
   const paginationOptions = pick(req.query, paginationFields)
+
   const result = await AdminService.getAllAdmins(filters, paginationOptions)
 
   sendResponse<IAdmin[]>(res, {
@@ -24,7 +25,6 @@ const getAllAdmins = catchAsync(async (req: Request, res: Response) => {
 
 const getSingleAdmin = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id
-
   const result = await AdminService.getSingleAdmin(id)
 
   sendResponse<IAdmin>(res, {
@@ -41,14 +41,13 @@ const updateAdmin = catchAsync(async (req: Request, res: Response) => {
 
   const result = await AdminService.updateAdmin(id, updatedData)
 
-  sendResponse(res, {
+  sendResponse<IAdmin>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Admin is updated successfully !',
+    message: 'Admin updated successfully !',
     data: result,
   })
 })
-
 const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id
 
@@ -61,6 +60,7 @@ const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
     data: result,
   })
 })
+
 export const AdminController = {
   getAllAdmins,
   getSingleAdmin,
