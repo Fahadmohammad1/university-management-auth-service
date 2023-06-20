@@ -15,8 +15,8 @@ import {
   generateFacultyId,
   generateStudentId,
 } from './user.utils'
-import AcademicSemester from '../academicSemester/academicSemester.model'
 import { User } from './user.model'
+import { AcademicSemester } from '../academicSemester/academicSemester.model'
 
 const createStudent = async (
   student: IStudent,

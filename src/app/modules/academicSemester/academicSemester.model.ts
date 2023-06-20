@@ -1,8 +1,5 @@
 import { Schema, model } from 'mongoose'
-import {
-  AcademicSemesterModel,
-  IAcademicSemester,
-} from './academicSemester.interface'
+import { IAcademicSemester } from './academicSemester.interface'
 import {
   academicSemesterCodes,
   academicSemesterMonths,
@@ -60,9 +57,7 @@ academicSemesterSchema.pre('save', async function (next) {
   next()
 })
 
-const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
+export const AcademicSemester = model<IAcademicSemester>(
   'AcademicSemester',
   academicSemesterSchema
 )
-
-export default AcademicSemester

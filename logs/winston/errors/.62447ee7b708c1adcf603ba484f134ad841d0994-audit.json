@@ -1,265 +1,175 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/.62447ee7b708c1adcf603ba484f134ad841d0994-audit.json",
-  "files": [
-    {
-      "date": 1685823667598,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-02-error.log",
-      "hash": "d4297b785ec6932b3f2719752898197e38e373ee2a83baf3a5acd2b9c8123693"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1685875269980,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-16-error.log",
-      "hash": "441e3a90b595cec2853f4d699649aa767a62f15eb219bc548ad076b32f403105"
-    },
-    {
-      "date": 1685876571784,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-17-error.log",
-      "hash": "f17d9d4c26ad5135cf825a4b0231ffd6f75eed2e2be07c6b35ea9d2cfa3acb45"
-    },
-    {
-      "date": 1685884435562,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-19-error.log",
-      "hash": "9866a7b90207cdde27ab24cc436529b0003548f78485116034fc1aa480852cc9"
-    },
-    {
-      "date": 1685890715972,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-20-error.log",
-      "hash": "c952da822350c38a28e6eb63ada7278bbe88c8c04f7962638133191a5224e728"
-    },
-    {
-      "date": 1685892255643,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-21-error.log",
-      "hash": "4d3ecd926b69642e4d9020db863a8f91d6eeffeee96fe3b5947b31c35c568b9c"
-    },
-    {
-      "date": 1685894482995,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-22-error.log",
-      "hash": "57c7266c0ca297a1a34ec4e0e047913cc23dca465dd4fc85d0727fd5f2ad1a02"
-    },
-    {
-      "date": 1685898122637,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-04-06-23-error.log",
-      "hash": "691cc9422b4aadbf7666e32fbb8b0a4c44ea0c938db5ca95a9f8bd39bcb4a432"
-    },
-    {
-      "date": 1685972331640,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-19-error.log",
-      "hash": "6e7b7bdc826f74534cd903ed45ca66e24d9e8a192626a3d8daa9cbfedb8ada7b"
-    },
-    {
-      "date": 1685973744938,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-20-error.log",
-      "hash": "ac23a6c007b370eeed74fe8d8d5e3a575c93d1de34aef490f6cd121489065ac0"
-    },
-    {
-      "date": 1685977310831,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-21-error.log",
-      "hash": "149fe783c1c42fb467a29fac84ed7a81bb0e45ae0fa48d23e7ccad2cd1ec66eb"
-    },
-    {
-      "date": 1685980842827,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-22-error.log",
-      "hash": "9f1a3158c0e6178a3abbfaa0a20a03e6c7006d68b4e4cc7e82823bea54c2f732"
-    },
-    {
-      "date": 1685984678026,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-05-06-23-error.log",
-      "hash": "f36ee9a8be06286773cf3ddc91ea19163b306f51a623b9f808f77eef75fa5374"
-    },
-    {
-      "date": 1685992465148,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-06-06-01-error.log",
-      "hash": "ccc4581063f6388d7f7292f32b5929af1a7ca910a59177b5cf9d394594db280f"
-    },
-    {
-      "date": 1685995930586,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-06-06-02-error.log",
-      "hash": "3cecb272eda4bf14a00bd8a1b02845b498fc271e0fbd6ec024d2a5639fc84fd8"
-    },
-    {
-      "date": 1686047791166,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-06-06-16-error.log",
-      "hash": "4a2db78bb05c4dd8d897a71ee8762067eb58485b83f35d893618cd3751f48d62"
-    },
-    {
-      "date": 1686049231311,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-06-06-17-error.log",
-      "hash": "0877e42b3eeba74ddd715bac6cdcd6336506cb8ced4e7264ff42a68b5d32715c"
-    },
-    {
-      "date": 1686058252111,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-06-06-19-error.log",
-      "hash": "eb32656046ac4b5255922fca84fe4483779acc9b904842d8bf72c4dfea542753"
-    },
-    {
-      "date": 1686077913331,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-07-06-00-error.log",
-      "hash": "c88511ba483fd59f23904b2474f08d355c687f6610e3a53c7c7fa472927e56c2"
-    },
-    {
-      "date": 1686078003484,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-07-06-01-error.log",
-      "hash": "28cd96a7c0a74aaad52220b6502857f07368602e94ecc25b3567c6d5e0a41b73"
-    },
-    {
-      "date": 1686405172102,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-10-06-19-error.log",
-      "hash": "e7bba87c07376cad3e73590a9d711d6f4b2fee3c3a8d0454ddf2df8f0afa650d"
-    },
-    {
-      "date": 1686415207893,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-10-06-22-error.log",
-      "hash": "00f290864443fab6082a37cff3e3caa44e3db648405168f85d8749d47aa93b00"
-    },
-    {
-      "date": 1686416770352,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-10-06-23-error.log",
-      "hash": "f69b492100cc9a28b2a9d16a1240b52d9dbe56a41c54f649dcc6aacf84570681"
-    },
-    {
-      "date": 1686425374052,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-11-06-01-error.log",
-      "hash": "48727a2cdedfe72b2528fd233b122c82d0ae260a55e7f6592044f4423970d4aa"
-    },
-    {
-      "date": 1686489122452,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-11-06-19-error.log",
-      "hash": "ffe548483311577d78e18fce4fde5eafe0688c5b3441e41f0d387d92b6d91354"
-    },
-    {
-      "date": 1686509896647,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-00-error.log",
-      "hash": "5ff2e1ef114291b8c9cd65bfda5bb06fb15d49fdf1c6c0e86c2c6f7b15db3570"
-    },
-    {
-      "date": 1686510655129,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-01-error.log",
-      "hash": "6b9c37ed64fe1660cb5ec8423d8e8519ec324051a6954c9473f8f4af7eca0fd1"
-    },
-    {
-      "date": 1686572266635,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-18-error.log",
-      "hash": "3ea13f23e6006db9f95b1d41b445d7f3fc620b69e8e93c239a3e101c2591adaf"
-    },
-    {
-      "date": 1686576076534,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-19-error.log",
-      "hash": "73a06d9e9d69abf4dd0b096609cb25c062c812c93e52a9c06806c73bd83bdd07"
-    },
-    {
-      "date": 1686578460835,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-20-error.log",
-      "hash": "64829da010c67da8f3c262be650111d091c16d0cb25a905c8571e59b90eb02ff"
-    },
-    {
-      "date": 1686583486186,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-21-error.log",
-      "hash": "2a2ff6bb8a747a9aa8f57078ec2ae9aa17d1f1d148a46310c6a32f05d8c08842"
-    },
-    {
-      "date": 1686586450938,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-22-error.log",
-      "hash": "112155662b28da4e844229e88b9e1a0afa30d2ba7b942e0de24f9cc302a3ce22"
-    },
-    {
-      "date": 1686589526714,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-23-error.log",
-      "hash": "bdf29d713caf6c1739577c57f504dbd595c02a71231d86b1b73e1ce4ebde3b62"
-    },
-    {
-      "date": 1686594283218,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-00-error.log",
-      "hash": "df49818f8b335b2afac31217db9ab2f40b2cad2ff6a3e77b12442509354c4fe4"
-    },
-    {
-      "date": 1686661783804,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-19-error.log",
-      "hash": "047448db086cc00ffa91683301ef8d0946f670f781836f309d221acd31ba1166"
-    },
-    {
-      "date": 1686666762196,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-20-error.log",
-      "hash": "3a43fbdd997abcb40ec73dcb07101b2e0e6698454def4710d2d9fea2aa2b21cf"
-    },
-    {
-      "date": 1686668488549,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-21-error.log",
-      "hash": "41028c8d6a16fcf7d43c4f2b4bfecca14bfca5b4ee9780a0300f126b441ce604"
-    },
-    {
-      "date": 1686672223382,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-22-error.log",
-      "hash": "f636aacedd65d0ee60ef931bf14adce01437197af576c458b1cac80b4b34954e"
-    },
-    {
-      "date": 1686677430633,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-23-error.log",
-      "hash": "a3b6848598027cb83df8b836f63f8d24875e9b6039b18a5892e271d378da1f1d"
-    },
-    {
-      "date": 1686696488049,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-04-error.log",
-      "hash": "860f0c5c08962153521233881c2ea9a32698346abe20d17e192096a7c5b154ff"
-    },
-    {
-      "date": 1686697242486,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-05-error.log",
-      "hash": "457a93eb563034a95c1d4fd0781aa6af758662a2495369f05239a0cafe1543f5"
-    },
-    {
-      "date": 1686750838833,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-19-error.log",
-      "hash": "84af6048ceb192f48e12f3a25c5859afefd632cd7a018b0f1e469a34403027c7"
-    },
-    {
-      "date": 1686751206242,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-20-error.log",
-      "hash": "58be0693d66a2fa0b411929821b05cfce13b8f21b034ee9eb77ed61fd4143a4d"
-    },
-    {
-      "date": 1686755127210,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-21-error.log",
-      "hash": "3cd2ab7b6833308f101cb91edbee52d6a9492538a6904633a6b17d0ce9def91b"
-    },
-    {
-      "date": 1686763919491,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-23-error.log",
-      "hash": "d698bd0ed76c2ca4f4b405e9108cbafda46b6b1b4753f0d81ba13931529912fb"
-    },
-    {
-      "date": 1686765642173,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-00-error.log",
-      "hash": "672c112b1614ec629de4fe32aaacbe4db909fdd5d7e5d8b78c028a20960df6fd"
-    },
-    {
-      "date": 1686773897058,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-02-error.log",
-      "hash": "715f24d04a124af23de43b3f467c83dbeaf71e477e07a3b7b985e8902e13762e"
-    },
-    {
-      "date": 1686778577840,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-03-error.log",
-      "hash": "b45c6a20c959d5ca43c9c5515796037eda1214c6a8507cd0d870ecd456a54a05"
-    },
-    {
-      "date": 1686780113626,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-04-error.log",
-      "hash": "8c099e0a873da5393c32dc8bf55e385548574caf99cc1770a3ce6e132ee2b2bd"
-    },
-    {
-      "date": 1686833413757,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-18-error.log",
-      "hash": "9cc1a5ce36d0e4ebd09f90d35f18a8b9555157aee0bf04724556526412b2ce7d"
-    },
-    {
-      "date": 1686834350371,
-      "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-19-error.log",
-      "hash": "9ddefd3595018f42b1585460d21ffd9310fef444d646c40ef3a11c2457d6afcf"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/.62447ee7b708c1adcf603ba484f134ad841d0994-audit.json",
+    "files": [
+        {
+            "date": 1686405172102,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-10-06-19-error.log",
+            "hash": "e7bba87c07376cad3e73590a9d711d6f4b2fee3c3a8d0454ddf2df8f0afa650d"
+        },
+        {
+            "date": 1686415207893,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-10-06-22-error.log",
+            "hash": "00f290864443fab6082a37cff3e3caa44e3db648405168f85d8749d47aa93b00"
+        },
+        {
+            "date": 1686416770352,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-10-06-23-error.log",
+            "hash": "f69b492100cc9a28b2a9d16a1240b52d9dbe56a41c54f649dcc6aacf84570681"
+        },
+        {
+            "date": 1686425374052,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-11-06-01-error.log",
+            "hash": "48727a2cdedfe72b2528fd233b122c82d0ae260a55e7f6592044f4423970d4aa"
+        },
+        {
+            "date": 1686489122452,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-11-06-19-error.log",
+            "hash": "ffe548483311577d78e18fce4fde5eafe0688c5b3441e41f0d387d92b6d91354"
+        },
+        {
+            "date": 1686509896647,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-00-error.log",
+            "hash": "5ff2e1ef114291b8c9cd65bfda5bb06fb15d49fdf1c6c0e86c2c6f7b15db3570"
+        },
+        {
+            "date": 1686510655129,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-01-error.log",
+            "hash": "6b9c37ed64fe1660cb5ec8423d8e8519ec324051a6954c9473f8f4af7eca0fd1"
+        },
+        {
+            "date": 1686572266635,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-18-error.log",
+            "hash": "3ea13f23e6006db9f95b1d41b445d7f3fc620b69e8e93c239a3e101c2591adaf"
+        },
+        {
+            "date": 1686576076534,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-19-error.log",
+            "hash": "73a06d9e9d69abf4dd0b096609cb25c062c812c93e52a9c06806c73bd83bdd07"
+        },
+        {
+            "date": 1686578460835,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-20-error.log",
+            "hash": "64829da010c67da8f3c262be650111d091c16d0cb25a905c8571e59b90eb02ff"
+        },
+        {
+            "date": 1686583486186,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-21-error.log",
+            "hash": "2a2ff6bb8a747a9aa8f57078ec2ae9aa17d1f1d148a46310c6a32f05d8c08842"
+        },
+        {
+            "date": 1686586450938,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-22-error.log",
+            "hash": "112155662b28da4e844229e88b9e1a0afa30d2ba7b942e0de24f9cc302a3ce22"
+        },
+        {
+            "date": 1686589526714,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-12-06-23-error.log",
+            "hash": "bdf29d713caf6c1739577c57f504dbd595c02a71231d86b1b73e1ce4ebde3b62"
+        },
+        {
+            "date": 1686594283218,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-00-error.log",
+            "hash": "df49818f8b335b2afac31217db9ab2f40b2cad2ff6a3e77b12442509354c4fe4"
+        },
+        {
+            "date": 1686661783804,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-19-error.log",
+            "hash": "047448db086cc00ffa91683301ef8d0946f670f781836f309d221acd31ba1166"
+        },
+        {
+            "date": 1686666762196,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-20-error.log",
+            "hash": "3a43fbdd997abcb40ec73dcb07101b2e0e6698454def4710d2d9fea2aa2b21cf"
+        },
+        {
+            "date": 1686668488549,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-21-error.log",
+            "hash": "41028c8d6a16fcf7d43c4f2b4bfecca14bfca5b4ee9780a0300f126b441ce604"
+        },
+        {
+            "date": 1686672223382,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-22-error.log",
+            "hash": "f636aacedd65d0ee60ef931bf14adce01437197af576c458b1cac80b4b34954e"
+        },
+        {
+            "date": 1686677430633,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-13-06-23-error.log",
+            "hash": "a3b6848598027cb83df8b836f63f8d24875e9b6039b18a5892e271d378da1f1d"
+        },
+        {
+            "date": 1686696488049,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-04-error.log",
+            "hash": "860f0c5c08962153521233881c2ea9a32698346abe20d17e192096a7c5b154ff"
+        },
+        {
+            "date": 1686697242486,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-05-error.log",
+            "hash": "457a93eb563034a95c1d4fd0781aa6af758662a2495369f05239a0cafe1543f5"
+        },
+        {
+            "date": 1686750838833,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-19-error.log",
+            "hash": "84af6048ceb192f48e12f3a25c5859afefd632cd7a018b0f1e469a34403027c7"
+        },
+        {
+            "date": 1686751206242,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-20-error.log",
+            "hash": "58be0693d66a2fa0b411929821b05cfce13b8f21b034ee9eb77ed61fd4143a4d"
+        },
+        {
+            "date": 1686755127210,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-21-error.log",
+            "hash": "3cd2ab7b6833308f101cb91edbee52d6a9492538a6904633a6b17d0ce9def91b"
+        },
+        {
+            "date": 1686763919491,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-14-06-23-error.log",
+            "hash": "d698bd0ed76c2ca4f4b405e9108cbafda46b6b1b4753f0d81ba13931529912fb"
+        },
+        {
+            "date": 1686765642173,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-00-error.log",
+            "hash": "672c112b1614ec629de4fe32aaacbe4db909fdd5d7e5d8b78c028a20960df6fd"
+        },
+        {
+            "date": 1686773897058,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-02-error.log",
+            "hash": "715f24d04a124af23de43b3f467c83dbeaf71e477e07a3b7b985e8902e13762e"
+        },
+        {
+            "date": 1686778577840,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-03-error.log",
+            "hash": "b45c6a20c959d5ca43c9c5515796037eda1214c6a8507cd0d870ecd456a54a05"
+        },
+        {
+            "date": 1686780113626,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-04-error.log",
+            "hash": "8c099e0a873da5393c32dc8bf55e385548574caf99cc1770a3ce6e132ee2b2bd"
+        },
+        {
+            "date": 1686833413757,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-18-error.log",
+            "hash": "9cc1a5ce36d0e4ebd09f90d35f18a8b9555157aee0bf04724556526412b2ce7d"
+        },
+        {
+            "date": 1686834350371,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-15-06-19-error.log",
+            "hash": "9ddefd3595018f42b1585460d21ffd9310fef444d646c40ef3a11c2457d6afcf"
+        },
+        {
+            "date": 1687292083286,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-21-06-02-error.log",
+            "hash": "b56c4148770a8b43cff351cd334615eb7cc1187a7dc13123ef0b2d93c75f78f0"
+        },
+        {
+            "date": 1687294864802,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/errors/phu-2023-21-06-03-error.log",
+            "hash": "d8b800c05beffaf33980fc104916f538156615e7053b6a5cf4f8a54523047449"
+        }
+    ],
+    "hashType": "sha256"
 }
