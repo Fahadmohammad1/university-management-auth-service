@@ -10,14 +10,11 @@ router.post(
   validateRequest(AuthValidation.loginZodSchema),
   AuthController.loginUser
 )
-// router.get('/', FacultyController.getAllFaculties)
 
-// router.patch(
-//   '/:id',
-//   validateRequest(FacultyValidation.updateFacultyZodSchema),
-//   FacultyController.updateFaculty
-// )
-
-// router.delete('/:id', FacultyController.deleteFaculty)
+router.post(
+  '/refresh-token',
+  validateRequest(AuthValidation.refreshTokenZodSchema),
+  AuthController.refreshToken
+)
 
 export const AuthRoutes = router

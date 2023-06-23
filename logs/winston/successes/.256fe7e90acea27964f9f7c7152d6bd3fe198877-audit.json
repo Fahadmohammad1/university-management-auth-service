@@ -184,6 +184,21 @@
             "date": 1687451393051,
             "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-22-06-22-success.log",
             "hash": "9770b675bc3267c20716782f13e8a72a30f3b318423c88ba337c6fd938e2b08f"
+        },
+        {
+            "date": 1687453337619,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-22-06-23-success.log",
+            "hash": "d99b887d32a74225d47c187ac620039fafed1ffa7145924b94edaa85d6548b7d"
+        },
+        {
+            "date": 1687534476658,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-23-06-21-success.log",
+            "hash": "2f6250dbe89c403009efb5bc50f428acb299985ff701c980134ae386ed0a368f"
+        },
+        {
+            "date": 1687536143724,
+            "name": "/media/fahad/Data disk/NEXT-LEVEL/mission-03/university-managment-auth-service/logs/winston/successes/phu-2023-23-06-22-success.log",
+            "hash": "09acb4fbb245b314d35a77ccc1abd9e4b7a50357f69f120a0b9574336930b9e9"
         }
     ],
     "hashType": "sha256"
