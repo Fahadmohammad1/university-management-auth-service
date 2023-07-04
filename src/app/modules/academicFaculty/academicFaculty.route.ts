@@ -20,17 +20,21 @@ router.get(
   AcademicFacultyController.getSingleFaculty
 )
 
-router.patch(
-  '/:id',
-  validateRequest(AcademicFacultyValidation.updatefacultyZodSchema),
-  auth(ENUM_USER_ROLE.ADMIN, ENUM_USER_ROLE.FACULTY),
-  AcademicFacultyController.updateFaculty
+router.post(
+  '/create-faculty',
+  validateRequest(AcademicFacultyValidation.createFacultyZodSchema),
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  AcademicFacultyController.createFaculty
 )
 
-router.delete(
+router.get(
   '/:id',
-  auth(ENUM_USER_ROLE.ADMIN),
-  AcademicFacultyController.deleteFaculty
+  auth(
+    ENUM_USER_ROLE.SUPER_ADMIN,
+    ENUM_USER_ROLE.ADMIN,
+    ENUM_USER_ROLE.FACULTY
+  ),
+  AcademicFacultyController.getSingleFaculty
 )
 
 router.get(
@@ -38,9 +42,26 @@ router.get(
   auth(
     ENUM_USER_ROLE.SUPER_ADMIN,
     ENUM_USER_ROLE.ADMIN,
-    ENUM_USER_ROLE.STUDENT
+    ENUM_USER_ROLE.FACULTY
   ),
   AcademicFacultyController.getAllFaculties
+)
+
+router.patch(
+  '/:id',
+  validateRequest(AcademicFacultyValidation.updatefacultyZodSchema),
+  auth(
+    ENUM_USER_ROLE.SUPER_ADMIN,
+    ENUM_USER_ROLE.ADMIN,
+    ENUM_USER_ROLE.FACULTY
+  ),
+  AcademicFacultyController.updateFaculty
+)
+
+router.delete(
+  '/:id',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN),
+  AcademicFacultyController.deleteFaculty
 )
 
 export const AcademicFacultyRoutes = router

@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
 import bcrypt from 'bcrypt'
 import { Schema, model } from 'mongoose'
-import { IUser, UserModel } from './user.interface'
+import { IUser, IUserMethods, UserModel } from './user.interface'
 import config from '../../../config'
 
-const UserSchema = new Schema<IUser, UserModel>(
+const UserSchema = new Schema<IUser, UserModel, IUserMethods>(
   {
     id: {
       type: String,
@@ -50,10 +50,7 @@ const UserSchema = new Schema<IUser, UserModel>(
 
 UserSchema.statics.isUserExist = async function (
   id: string
-): Promise<Pick<
-  IUser,
-  'id' | 'password' | 'role' | 'needsPasswordChange'
-> | null> {
+): Promise<IUser | null> {
   return await User.findOne(
     { id },
     { id: 1, password: 1, role: 1, needsPasswordChange: 1 }
@@ -67,6 +64,12 @@ UserSchema.statics.isPasswordMatched = async function (
   return await bcrypt.compare(givenPassword, savedPassword)
 }
 
+UserSchema.methods.changedPasswordAfterJwtIssued = function (
+  jwtTimestamp: number
+) {
+  console.log({ jwtTimestamp }, 'hi')
+}
+
 // User.create() / user.save()
 UserSchema.pre('save', async function (next) {
   // hashing user password
@@ -75,6 +78,11 @@ UserSchema.pre('save', async function (next) {
     user.password,
     Number(config.bcrypt_salt_rounds)
   )
+
+  if (!user.needsPasswordChange) {
+    user.passwordChangedAt = new Date()
+  }
+
   next()
 })
 
