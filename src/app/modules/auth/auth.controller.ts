@@ -5,6 +5,7 @@ import httpStatus from 'http-status'
 import { AuthService } from './auth.service'
 import { ILoginUserResponse, IRefreshTokenResponse } from './auth.interface'
 import config from '../../../config'
+import { JwtPayload } from 'jsonwebtoken'
 
 const loginUser = catchAsync(async (req: Request, res: Response) => {
   const { ...loginData } = req.body
@@ -50,7 +51,20 @@ const refreshToken = catchAsync(async (req: Request, res: Response) => {
   })
 })
 
+const changePassword = catchAsync(async (req: Request, res: Response) => {
+  const { ...passwordData } = req.body
+  const user = req.user as JwtPayload
+  await AuthService.changePassword(user, passwordData)
+
+  sendResponse<ILoginUserResponse>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User loggedin successfully !',
+  })
+})
+
 export const AuthController = {
   loginUser,
   refreshToken,
+  changePassword,
 }
